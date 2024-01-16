@@ -12,7 +12,7 @@
  - `cd /blue/hats/grey/solution/patience` : apres avoir ete rediriger vers le dossier `patience`. 
  - `cat SOLUTION.txt` : le mot de passe se trouve dans ce fichier .
 
-a## [ level 2 ] 
+## [ level 2 ] 
  - `cd /home/level/02` : se diriger vers le dossier du niveau 2 .
  - `ls -al` : voir la liste des elements du dossier `02` , fichier cacher inclus.
  - `cd .porb` : on y trouve un dossier cacher `.porb` puis on va dans le dossier .
