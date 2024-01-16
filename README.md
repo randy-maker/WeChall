@@ -21,7 +21,7 @@ a## [ level 2 ]
 
 ### [ level 3 ] 
  - `cd /home/level/03` :  se diriger vers le dossier du niveau 3 .
- - `ls -al` : voir la liste des elements du dossier `03` , fichier cacher inclus.cat 
+ - `ls -al` : voir la liste des elements du dossier `03` , fichier cacher inclus.
  - `cat .bash_history` : le mot de passe se trouve sur la premeiere ligne .
 
 ### [ level 4 ] 
