@@ -31,3 +31,10 @@ a## [ level 2 ]
  - `chmod 755 README2.md` puis `cat README2.md` : changer la permission puis afficher le contenu .
  - le mot de passe se trouve dans ce fichier `README2.md`.  
 
+### [ level 5 ] 
+ - `cd /home/level/05_privacyz` : se diriger vers le dossier du niveau 5 .
+ - `cat README.md` : on affiche juste ce fichier et on trouve le mot de passe . 
+
+
+
+
