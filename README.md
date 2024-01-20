@@ -39,5 +39,12 @@
  - `cat README.md` : on affiche juste ce fichier et on trouve le mot de passe . 
 
 
+### [ level 12 ] 
+- `cd /home/level//12_pytong` : se diriger vers le dossier du niveau 12 .
+- `nano /home/user/randy/script : ` creer un script a executer dont le contenu change tout le temps .
+- `script` :
+                     <pre>while true; do 
+                             echo "Contenu 1"  >> changedfile </pre>
+-`touch changedfile` : creer le fichier ou 
 
 
