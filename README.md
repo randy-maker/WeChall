@@ -41,10 +41,13 @@
 
 ### [ level 12 ] 
 - `cd /home/level//12_pytong` : se diriger vers le dossier du niveau 12 .
-- `nano /home/user/randy/script : ` creer un script a executer dont le contenu change tout le temps .
+- `nano /home/user/randy/script : `  créer un script exécutable dont le contenu change constamment.
 - `script` :
                      <pre>while true; do 
-                             echo "Contenu 1"  >> changedfile </pre>
-- `touch changedfile` : creer le fichier ou 
+                             echo "blablabla"  >> changedfile </pre>
+- `touch changedfile` : creation du fichier qui recevera le contenu du xcript
+- `./script` : executer le script .
+- Ouvrir une nouvelle fenetre putty pour executer le code python .
+- `cd/home/level/12_pytong` et `./level12 /home/user/randy/changedfile` : executer le level12 dans le fichier qui change de contenu et le resultat s'affiche . 
 
 
