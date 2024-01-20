@@ -45,6 +45,6 @@
 - `script` :
                      <pre>while true; do 
                              echo "Contenu 1"  >> changedfile </pre>
--`touch changedfile` : creer le fichier ou 
+- `touch changedfile` : creer le fichier ou 
 
 
