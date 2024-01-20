@@ -1,13 +1,13 @@
 # WeChall
 > loging into ssh 
 
-### [ level 0 ] 
+## [ level 0 ] 
 - `cd /home/level/00_Welcome` : se diriger vers le dossier du niveau 0 .
 - `ls` :regarder la liste des fichiers dans le dossier dans le dossier `00_Welcome`.
 - `cat README.txt` : regarder le contenu du fichier `REAADME.txt` .
 - le mot de passe se trouve dans le fichier `README.txt`. 
 
-### [ level 1 ]
+## [ level 1 ]
  - `cd /home//level/01_choice_tree` : se diriger vers le dossier du niveau 1 .
  - `cd /blue/hats/grey/solution/patience` : apres avoir ete rediriger vers le dossier `patience`. 
  - `cat SOLUTION.txt` : le mot de passe se trouve dans ce fichier .
@@ -19,12 +19,12 @@
  - `ls -al` : voir de nouveau tous les elements du dossier `.porb` puis on a un fichier `.solution` .
  - `cat .solution` : le mot de passe se trouve dans ce fichier .
 
-### [ level 3 ] 
+## [ level 3 ] 
  - `cd /home/level/03` :  se diriger vers le dossier du niveau 3 .
  - `ls -al` : voir la liste des elements du dossier `03` , fichier cacher inclus.
  - `cat .bash_history` : le mot de passe se trouve sur la premeiere ligne .
 
-### [ level 4 ] 
+## [ level 4 ] 
  - `cd /home/level/04_kwisatz` : se diriger vers le dossier du niveau 4 .
  - `ls -al` : voir la liste des elements du dossier `04_kwisatz` , fichier cacher inclus.
  - `cat README.nfo` : puis on nous demande de nous rediriger vers le repertoire principale .
@@ -34,12 +34,12 @@
  - `chmod 755 README2.md` puis `cat README2.md` : changer la permission puis afficher le contenu .
  - le mot de passe se trouve dans ce fichier `README2.md`.  
 
-### [ level 5 ] 
+## [ level 5 ] 
  - `cd /home/level/05_privacyz` : se diriger vers le dossier du niveau 5 .
  - `cat README.md` : on affiche juste ce fichier et on trouve le mot de passe . 
 
 
-### [ level 12 ] 
+## [ level 12 ] 
 - `cd /home/level//12_pytong` : se diriger vers le dossier du niveau 12 .
 - `nano /home/user/randy/script : `  créer un script exécutable dont le contenu change constamment.
 - `script` :
