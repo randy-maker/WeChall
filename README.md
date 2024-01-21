@@ -48,7 +48,7 @@
 - `touch changedfile` : creation du fichier qui recevera le contenu du script
 - `./script` : executer le script .
 - Ouvrir une nouvelle fenetre putty sans fermer la session precedente pour executer le code python .
-- executer `script` script sur une fenetre et executer `pytong` sur une autre comme ceci : 
+- Executer `script` script sur une fenetre et executer `pytong` sur une autre comme ceci : 
 - `cd/home/level/12_pytong` et `./level12 /home/user/randy/changedfile` : executer le level12 dans le fichier qui change de contenu et le mot de passe s'affiche . 
 
 
