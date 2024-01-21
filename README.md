@@ -4,7 +4,7 @@
 ## [ level 0 ] 
 - `cd /home/level/00_Welcome` : se diriger vers le dossier du niveau 0 .
 - `ls` :regarder la liste des fichiers dans le dossier dans le dossier `00_Welcome`.
-- `cat README.txt` : regarder le contenu du fichier `README.txt` .
+- `cat README.txt` : afficher le contenu du fichier `README.txt` .
 - le mot de passe se trouve dans le fichier `README.txt`. 
 
 ## [ level 1 ]
