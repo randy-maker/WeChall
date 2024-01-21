@@ -26,7 +26,7 @@
 
 ## [ level 4 ] 
  - `cd /home/level/04_kwisatz` : se diriger vers le dossier du niveau 4 .
- - `ls -al` : voir la liste des elements du dossier `04_kwisatz` , fichier cacher inclus.
+ - `ls -al` : voir la liste de tout les elements du dossier `04_kwisatz`.
  - `cat README.nfo` : puis on nous demande de nous rediriger vers le repertoire principale .
  - `ls` : voir les elements du repertoire .
  - `cd level` : puis `ls` puir voir le dossier `04_kwisatz`.
