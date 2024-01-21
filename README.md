@@ -41,7 +41,7 @@
 
 ## [ level 12 ] 
 - `cd /home/level//12_pytong` : se diriger vers le dossier du niveau 12 .
-- `nano /home/user/randy/script : `  créer un script exécutable dont le contenu change constamment.
+- `nano /home/user/randy/script : `  créer un script exécutable qui envoie des caracteres infini vers un dossier  que l'on va creer .
 - `script` :
                      <pre>while true; do 
                              echo "blablabla"  >> changedfile </pre>
