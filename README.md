@@ -29,7 +29,7 @@
  - `ls -al` : voir la liste de tout les elements du dossier `04_kwisatz`.
  - `cat README.nfo` : puis on nous demande de nous rediriger vers le repertoire principale .
  - `ls` : voir les elements du repertoire .
- - `cd level` : puis `ls` puir voir le dossier `04_kwisatz`.
+ - `cd level` : puis `ls` pourr voir le dossier `04_kwisatz`.
  - `cd 04_kwisatz` : puis `ls` pour voir les 02 fichiers `README2.md` et README.txt`.
  - `chmod 755 README2.md` puis `cat README2.md` : changer la permission puis afficher le contenu .
  - le mot de passe se trouve dans ce fichier `README2.md`.  
