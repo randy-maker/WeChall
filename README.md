@@ -47,7 +47,7 @@
                              echo "blablabla"  >> changedfile </pre>
 - `touch changedfile` : creation du fichier qui recevera le contenu du script
 - `./script` : executer le script .
-- Ouvrir une nouvelle fenetre putty pour executer le code python .
+- Ouvrir une nouvelle fenetre putty sans fermer la session precedente pour executer le code python .
 - `cd/home/level/12_pytong` et `./level12 /home/user/randy/changedfile` : executer le level12 dans le fichier qui change de contenu et le mot de passe s'affiche . 
 
 
