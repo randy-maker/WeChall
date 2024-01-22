@@ -1,5 +1,5 @@
 # WeChall
-> loging into ssh 
+> loging into ssh to accees the warchall box
 
 ## [ level 0 ] 
 - `cd /home/level/00_Welcome` : se diriger vers le dossier du niveau 0 .
