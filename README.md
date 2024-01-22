@@ -52,7 +52,7 @@
 - `cd/home/level/12_pytong` et `./level12 /home/user/randy/changedfile` : executer le level12 dans le fichier qui change de contenu et le mot de passe s'affiche .
 
 ## [ level 14 ]
-- Cliquer sur le lien du challenge  **Live LFI** puis elle vous redirigera vers un site .
+- Cliquez sur le lien du challenge  **Live LFI** puis elle vous redirigera vers un site .
 - Cliquez sur l'un des drapeaux **anglais** ou le drapeau **allemand** et l' URL changera comme ceci :
   <pre>https://lfi.warchall.net/index.php?lang=en</pre>
 - Puis on change comme ci-dessous l'URL :
@@ -63,7 +63,7 @@
   PGh0bWw+Cjxib2R5Pgo8cHJlIHN0eWxlPSJjb2xvcjojMDAwOyI+dGVoIGZhbGcgc2kgbmFlciE8L3ByZT4KPHByZSBzdHlsZT0iY29sb3I6I2ZmZjsiPnRoZSBmbGFnIGlzIG5lYXIhPC9wcmU+CjwvYm9keT4KPC9odG1sPgo8P3BocCAgICAgICAgICAgICAgICAgICMgICBZT1VSX1RST1BIWSAKcmV0dXJuICdTdGVwcGluU3RvbmVzNDJQaWUnOyAjIDwtwrQgPz4K
 
 
-- C'est le contenu du file `solution.php` mais il faut encore le decoder
+- Il s'agit le contenu du file `solution.php` mais il faut encore le decoder
 - Nous allons ensuite ouvrir notre putty et decoder ce long texte dans un repertoire dont nous avons des droits 755 .
 - Nous allons ensuite executer la commande suivante :
 - `echo " `
