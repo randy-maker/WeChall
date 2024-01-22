@@ -72,11 +72,11 @@
 ```
 
 - `" | base64 -d -i`
-- Et le mot de passe va ensuite s'afficher .
+- Et le mot de passe va ensuite s'affichera .
 
 
 ## [ level 15 ] 
-- Nous allons nous appuyer sur le lien du challenge ***Right-Fi***
+- Nous allons cliquer sur le lien du challenge ***Right-Fi***
 - cliquez sur **EN** ou **DE** en haut a droite et l'URL changera comme tels :
   ```
   https://rfi.warchall.net/index.php?lang=en
@@ -84,7 +84,7 @@
   ```
   https://rfi.warchall.net/index.php?lang=php://filter/convert.base64-encode/resource=solution.php
 
- - la page d'acceuil s'affichera mais il y a un long message et des messages de ***Warning*** qui sont ajoutees
+ - la page d'acceuil s'affichera mais il y a un long message et des messages de ***Warning*** qui sont ajoutées .
  - nous alllons ensuite copier le texte incomprehensible et le decoder avec les commandes suivantes :
  - `echo " ` :
    ```
