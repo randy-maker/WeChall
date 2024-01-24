@@ -39,6 +39,11 @@
  - `cat README.md` : on affiche juste ce fichier et on trouve le mot de passe . 
 
 
+## [ level 10 ]
+- `cd /home/level/10_choose_your_path` : se diriger vers le dossier du niveau 10 .
+- `ls` : voir les elements du dossiers level10 .
+- ***./charp '\`cat solution.txt`'*** : la solution s'affichera ensuite sous forme s'erreur . 
+
 ## [ level 12 ] 
 - `cd /home/level//12_pytong` : se diriger vers le dossier du niveau 12 .
 - `nano /home/user/randy/script : `  créer un script exécutable qui envoie des caracteres infini vers un dossier  que l'on va creer .
