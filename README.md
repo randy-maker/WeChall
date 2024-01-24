@@ -42,7 +42,7 @@
 ## [ level 10 ]
 - `cd /home/level/10_choose_your_path` : se diriger vers le dossier du niveau 10 .
 - `ls` : voir les elements du dossiers level10 .
-- ***./charp '\`cat solution.txt`'*** : executez le fichier ***charp*** avec ***cat solution.txt*** comme argument et la solution s'affichera ensuite sous forme s'erreur . 
+- ***./charp '\`cat solution.txt`'*** : executez le fichier ***charp*** avec ***cat solution.txt*** comme argument et la solution s'affichera ensuite sous forme d'erreur . 
 
 ## [ level 12 ] 
 - `cd /home/level//12_pytong` : se diriger vers le dossier du niveau 12 .
