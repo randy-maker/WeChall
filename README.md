@@ -42,7 +42,11 @@
 ## [ level 10 ]
 - `cd /home/level/10_choose_your_path` : se diriger vers le dossier du niveau 10 .
 - `ls` : voir les elements du dossiers level10 .
-- ***./charp '\`cat solution.txt`'*** : executez le fichier ***charp*** avec ***cat solution.txt*** comme argument et la solution s'affichera ensuite sous forme d'erreur . 
+- `./charp "param1 ; cat solution.txt > fichier.txt`: param1 devient un argument de ***charp2*** et  ***cat solution.txt > fichier.txt*** le deuxieme argument .
+- On a pu realiser la condition pour faire echouer le programme ***c*** et le contenu de solution.txt est copier vers ***fichier.txt*** dans notre repertoire personnel et le mot de passe s'y trouve .
+- On peut aussi utiliser la commande ci-dessous pour obtenir le mot de passe . 
+- ***./charp '\`cat solution.txt`'*** : executez le fichier ***charp*** avec ***cat solution.txt*** comme argument et la solution s'affichera ensuite sous forme d'erreur .
+  
 
 ## [ level 12 ] 
 - `cd /home/level//12_pytong` : se diriger vers le dossier du niveau 12 .
