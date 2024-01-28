@@ -98,6 +98,7 @@
 
 
 # [ level 15 ] 
+## Ce challenge est exactement le même que le challenge LFI .
 - Nous allons cliquer sur le lien du challenge ***Right-Fi***
 - Cliquez sur **EN** ou **DE** en haut a droite et l'URL changera comme tels :
   ```
