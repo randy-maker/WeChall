@@ -40,7 +40,7 @@
 
 
 # [ level 10 ]
-## Dans ce challenge , on doit mettre le programme  c compiler en echeance pour pouvoir recuperer le mot de passe .
+## Dans ce challenge , on doit mettre le programme c compiler en échéance pour pouvoir récupérer le mot de passe .  
 - `cd /home/level/10_choose_your_path` : se diriger vers le dossier du niveau 10 .
 - `ls` : voir les elements du dossiers level10 .
 - `./charp "nomRandom ; cat solution.txt > /home/user/randy/fichier.txt`: nomRandom devient un argument de ***charp2*** et  ***cat solution.txt > fichier.txt*** le deuxieme argument .
@@ -49,10 +49,10 @@
   
 
 # [ level 11 ]
-## Ce challenge est une version plus difficle du level 10 mais les instructions pour obtenir le mot de passe reste le meme 
+## Ce challenge est une version plus difficile du niveau 10 mais les instructions pour obtenir le mot de passe reste le même .
 - `cd /home/level/10_choose_your_path2` : se diriger vers le dossier du niveau 11 .
 - `./charp '--files0-from=solution.txt'`: ***"--file0-from=fichier"*** : Cette option est generalement pour lire les noms de fichiers dans une liste de fichier , mais dans notre cas, ***solution.txt*** n'est pas une liste mais un fichier , `charp2` interprete cet commande comme son argument et lis le contenu de ***solution.txt*** comme une liste de fichier , cependant ***solution.txt*** ne contient aucun nom de fihier valide , ce  qui met le programme en echeance , et qui affiche le mot de passe du challenge .
-- ***NB : cette solution peut etre aussi utiliser dans le niveau 10***  
+- ***NB : cette solution peut aussi être utiliser dans le niveau 10***  
 
 
 # [ level 12 ] 
