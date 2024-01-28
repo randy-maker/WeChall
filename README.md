@@ -40,7 +40,7 @@
 
 
 # [ level 10 ]
-## Dans ce challenge , on doit mettre le programme c compiler en échéance pour pouvoir récupérer le mot de passe .  
+## Dans ce challenge , on doit mettre le programme c compilé en échéance pour pouvoir récupérer le mot de passe .  
 - `cd /home/level/10_choose_your_path` : se diriger vers le dossier du niveau 10 .
 - `ls` : voir les elements du dossiers level10 .
 - `./charp "nomRandom ; cat solution.txt > /home/user/randy/fichier.txt`: nomRandom devient un argument de ***charp2*** et  ***cat solution.txt > fichier.txt*** le deuxieme argument .
@@ -56,9 +56,12 @@
 
 
 # [ level 12 ] 
-## dans ce Challenge , 
+## Dans ce Challenge , le programme pyton doit retourner true pour obtenir le mot de passe .
+### le mot de passe est true dans les cas suivants : 
+- Quand un fichier ne peut plus être ouvert après sa première ouverture ou quand le contenu du fichier change constamment .
+### Ma solution : 
 - `cd /home/level//12_pytong` : se diriger vers le dossier du niveau 12 .
-- `nano /home/user/randy/script : `  créer un script exécutable qui envoie des caracteres infini vers un dossier  que l'on va creer .
+- `nano /home/user/randy/script : `  créer un script exécutable qui envoie des caracteres infini vers un fichier  que l'on va creer .
 - `script` :
                      <pre>while true; do 
                              echo "blablabla"  >> changedfile </pre>
@@ -66,7 +69,7 @@
 - `./script` : executer le script .
 - Ouvrir une nouvelle fenetre putty sans fermer la session precedente pour executer le code python .
 - Executer `script` script sur une fenetre et executer `pytong` sur une autre comme ceci : 
-- `cd/home/level/12_pytong` et `./level12 /home/user/randy/changedfile` : executer le level12 dans le fichier qui change de contenu et le mot de passe s'affiche .
+- `cd /home/level/12_pytong` et `./level12 /home/user/randy/changedfile` : executer le level12 dans le fichier qui change de contenu et le mot de passe s'affiche .
 
 # [ level 14 ]
 - Cliquez sur le lien du challenge  **Live LFI** puis elle vous redirigera vers un site .
