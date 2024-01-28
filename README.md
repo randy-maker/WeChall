@@ -72,11 +72,13 @@
 - `cd /home/level/12_pytong` et `./level12 /home/user/randy/changedfile` : executer le level12 dans le fichier qui change de contenu et le mot de passe s'affiche .
 
 # [ level 14 ]
+##  Dans ce challenge , on doit récupéré le mot de passe dans un fichier nommés solution.php .
 - Cliquez sur le lien du challenge  **Live LFI** puis elle vous redirigera vers un site .
 - Cliquez sur l'un des deux drapeaux : le drapeau **anglais** ou le drapeau **allemand** pour changer la langue et l' URL changera comme ceci :
   <pre>https://lfi.warchall.net/index.php?lang=en</pre>
 - Puis on change comme ci-dessous l'URL :
   <pre>https://lfi.warchall.net/index.php?lang=php://filter/convert.base64-encode/resource=solution.php</pre>
+- On utilise ici ***php://filter*** pour introduire ***l'encodage en base64*** , et on utilise l'encodage en base64 pour contourner les filtres ou les contrôles de sécurités mis en places .  
 - Puis on actualise et le contenu change et cela s'affiche :
   ```plaintext
 
