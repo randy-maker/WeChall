@@ -86,7 +86,7 @@
 
 
 - Il s'agit du contenu de `solution.php` mais il faut encore le decoder
-- Nous allons ensuite ouvrir notre putty et decoder ce long texte dans un repertoire dont nous avons des droits 755 .
+- Nous allons ensuite ouvrir notre putty et decoder ce long texte dans un repertoire dont nous avons des droits ouverts .
 - Nous allons ensuite executer la commande suivante :
 - `echo " `
  ```
