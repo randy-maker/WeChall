@@ -72,7 +72,7 @@
 - `cd /home/level/12_pytong` et `./level12 /home/user/randy/changedfile` : executer le level12 dans le fichier qui change de contenu et le mot de passe s'affiche .
 
 # [ level 14 ]
-##  Dans ce challenge , on doit récupéré le mot de passe dans un fichier nommés solution.php .
+##  Dans ce challenge , on doit récupéré le mot de passe dans un fichier nommés solution.php , pour recupere le mot de passe , on doit realiser un Local File Intrusion.
 - Cliquez sur le lien du challenge  **Live LFI** puis elle vous redirigera vers un site .
 - Cliquez sur l'un des deux drapeaux : le drapeau **anglais** ou le drapeau **allemand** pour changer la langue et l' URL changera comme ceci :
   <pre>https://lfi.warchall.net/index.php?lang=en</pre>
