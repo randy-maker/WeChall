@@ -57,7 +57,7 @@
 
 # [ level 12 ] 
 ## Dans ce Challenge , le programme pyton doit retourner true pour obtenir le mot de passe .
-### le mot de passe est true dans les cas suivants : 
+### le programme retourne true dans les cas suivants : 
 - Quand un fichier ne peut plus être ouvert après sa première ouverture ou quand le contenu du fichier change constamment .
 ### Ma solution : 
 - `cd /home/level//12_pytong` : se diriger vers le dossier du niveau 12 .
