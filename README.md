@@ -97,7 +97,7 @@ return 0;
 ```
 export PATH=$HOME:$PATH
 ```
-- puis `cd /home/level/matrixman/13_try_outs` et on execute `tryouts`
+- puis `cd /home/level/matrixman/13_tryouts/` et on execute `tryouts`
 - Après l'exécution de `tryouts`, on quitte le programme et on remet la variable d'environnement à sa valeur initiale avec la commande suivante :
   ```
   export PATH=$PATH
