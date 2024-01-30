@@ -134,13 +134,7 @@ export PATH=$HOME:$PATH
 - Il s'agit du contenu de `solution.php` mais il faut encore le decoder
 - Nous allons ensuite ouvrir notre putty et decoder ce long texte dans un repertoire dont nous avons des droits ouverts .
 - Nous allons ensuite executer la commande suivante :
-- `echo " `
- ```
-- PGh0bWw+Cjxib2R5Pgo8cHJlIHN0eWxlPSJjb2xvcjojMDAwOyI+dGVoIGZhbGcgc2kgbmFlciE8L3ByZT4KPHByZSBzdHlsZT0iY29sb3I6I2ZmZjsiPnRoZSBmbGFnIGlzIG5lYXIhPC9wcmU+CjwvYm9keT4KPC9odG1sPgo8P3BocCAgICAgICAgICAgICAgICAgICMgICBZT1VSX1RST1BIWSAKcmV0dXJuICdTdGVwcGluU3RvbmVzNDJQaWUnOyAjIDwtwrQgPz4K"
-```
-
-- `" | base64 -d -i`
-- Et le mot de passe va ensuite s'afficher .
+- `echo "le dernier texte super long" | base64 -d -i` : et le mot de passe va ensuite s'afficher .
 
 
 # [ level 15 ] 
@@ -155,10 +149,6 @@ export PATH=$HOME:$PATH
 
  - La page d'acceuil s'affichera mais il y a un long message et des messages de ***Warning*** qui sont ajoutées .
  - Nous allons ensuite copier le texte incompréhensible et le decoder avec les commandes suivantes :
- - `echo " ` :
-   ```
-   PGh0bWw+Cjxib2R5Pgo8cHJlPk5PVEhJTkcgSEVSRT8/Pz88L3ByZT4KPC9ib2R5Pgo8L2h0bWw+CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8P3BocCByZXR1cm4gJ0xvd19INE5HSU5HX0ZydWl0JzsgPz4K
-
- - `" | base64 -d -i ` : et le mot de passe s'affichera ensuite tout en bas à gauche  .
+ - `echo"solution php en base64(le dernier texte super long)" | base64 -d -i ` : et le mot de passe s'affichera ensuite tout en bas à gauche  .
 
 
