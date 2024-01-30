@@ -1,7 +1,7 @@
 # WeChall
 > logging into ssh to accees the warchall box
 
-# Trainin get source 
+# Training get source 
 - Pour retrouver le mot de passe , on doit juste inspecter le site et le mot de passe sera un commentaire de la code source .
 
 # [ level 0 ] 
