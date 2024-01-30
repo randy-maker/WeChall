@@ -1,5 +1,5 @@
 # WeChall
-> logging into ssh to accees the warchall box
+> logging into ssh in the port 19198 to access the warchall box after creating an account and setting a password to your ssh on wechall.net.
 
 
 
