@@ -42,7 +42,8 @@
 
 
 # [ level 10 ]
-## Dans ce challenge , on doit mettre le programme c compilé en échéance pour pouvoir récupérer le mot de passe .  
+## Dans ce challenge , le programme c nommée charp.c compte le  nombre de caractères par ligne d'un fichier, pour avoir le mot de passe , j'ai d'abord chercher un moyen de mettre le programme en échéance, mais le mot de passe ne s'est toujours pas afficher après quelques manipulation, alors j'ai pensé à une autre solution, copier la solution dans un autre fichier dont nous avons des droits 7 , maiz pour pouvoir réaliser la copie de la solution, on doit mettre le programme en échéance et exécuter des commandes comme ci-dessous :
+
 - `cd /home/level/10_choose_your_path` : se diriger vers le dossier du niveau 10 .
 - `ls` : voir les elements du dossiers level10 .
 - `./charp "nomRandom ; cat solution.txt > /home/user/randy/fichier.txt`: nomRandom devient un argument de ***charp2*** et  ***cat solution.txt > fichier.txt*** le deuxieme argument .
