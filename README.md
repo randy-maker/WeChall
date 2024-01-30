@@ -1,8 +1,7 @@
 # WeChall
 > logging into ssh to accees the warchall box
 
-# Training get source 
-- Pour retrouver le mot de passe , on doit juste inspecter le site et le mot de passe sera un commentaire de la code source .
+
 
 # [ level 0 ] 
 - `cd /home/level/00_Welcome` : se diriger vers le dossier du niveau 0 .
