@@ -129,7 +129,7 @@ export PATH=$HOME:$PATH
 ```
 
 - `" | base64 -d -i`
-- Et le mot de passe va ensuite s'affichera .
+- Et le mot de passe va ensuite s'afficher .
 
 
 # [ level 15 ] 
