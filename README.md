@@ -51,7 +51,7 @@
   
 
 # [ level 11 ]
-## Ce challenge est une version plus difficile du niveau 10 mais les instructions pour obtenir le mot de passe reste le même .
+## Ce challenge est une deuxième version du niveau 10 mais les instructions pour obtenir le mot de passe reste à quelques détails près les mêmes . Après l'analyse de ce code j'en suis venue à cette solution :
 - `cd /home/level/11_choose_your_path2` : se diriger vers le dossier du niveau 11 .
 - `./charp2 '--files0-from=solution.txt'`: ***"--file0-from=fichier"*** : Cette option est generalement  utilisée pour lire les noms de fichiers dans une liste de fichier , mais dans notre cas, ***solution.txt*** n'est pas une liste mais un fichier , `charp2` interprete cet commande comme son argument et lis le contenu de ***solution.txt*** comme une liste de fichier , cependant ***solution.txt*** ne contient aucun nom de fichier valide , ce  qui met le programme en echeance , et qui affiche le mot de passe du challenge .
 - ***NB : cette solution peut aussi être utiliser pour le niveau 10***  
