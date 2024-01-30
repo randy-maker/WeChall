@@ -107,7 +107,7 @@ export PATH=$HOME:$PATH
 - Puis on fait juste `nano /home/user/randy/seed` et on obtient notre mot de passe . 
 
 # [ level 14 ]
-##  Dans ce challenge ,pour récupérer le mot de passe on doit réaliser un LFI(Local File Intrusion) , Après avoir regarder des indices dans le forum de wechall ,  l'auteur du challenge nous à laisser un indice très essentiel ,qui dit que la mot de passe de la solution du challenge se trouve dans un file nommé solution.php . Après avoir googlés des infos sur php//filter et les techniques de LFI , j'en suis venue à cette solution :
+##  Dans ce challenge ,pour récupérer le mot de passe on doit réaliser un LFI(Local File Intrusion) , Après avoir regarder des indices dans le forum de wechall ,  l'auteur du challenge nous à laisser un indice très essentiel ,qui dit que la mot de passe de la solution du challenge se trouve dans un file nommé solution.php . Après avoir googlés des infos sur php//filter et des techniques de LFI , j'en suis venue à cette solution :
 - Cliquez sur le lien du challenge  **Live LFI** puis elle vous redirigera vers un site .
 - Cliquez sur l'un des deux drapeaux : le drapeau **anglais** ou le drapeau **allemand** pour changer la langue et l' URL changera comme ceci :
   <pre>https://lfi.warchall.net/index.php?lang=en</pre>
