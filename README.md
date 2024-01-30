@@ -94,7 +94,7 @@ return 0;
 
     </pre>
     
-- nous allons ensuite compiler ce code avec la commande suivante : `gcc -m32 cat.c -o cat` et `cat` deviendra la  version compiler de cat.c , le nom du programme compiler doit etre `cat` parce qu'on doit faire en sorte que le programme utilise notre `cat` au lieu de la commande de base . 
+- nous allons ensuite compiler ce code avec la commande suivante : `gcc -m32 cat.c -o cat` et `cat` deviendra la  version compiler de cat.c , le nom du programme compiler doit etre `cat` parce qu'on doit faire en sorte que le programme `tryouts` utilise notre `cat` au lieu de la commande de base . 
 - On executera ensuite notre `cat` dans notre repertoire personnel `./cat ` .
 - On doit changer la variable de l'environnement pour faciliter l'acces aux scripts ou programmes dans notre répertoire personnel  avec la commande suivante :
 ```
