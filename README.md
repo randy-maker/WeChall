@@ -4,13 +4,13 @@
 Challenge i solved on the warchall box :
 
 ```
-* the beginning
-* choose your path 1
+* Training : Warchall the beginning
+* choose your path 
 * choose your path 2
-+ pytong 
-* tryouts
++ py-tong 
+* Warchall : tryouts
 * Live LFI 
-* Live RFI
+* Live Right-FI
 ```
 
 
