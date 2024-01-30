@@ -7,7 +7,7 @@ Challenge i solved on the warchall box :
 * Training : Warchall the beginning
 * choose your path 
 * choose your path 2
-+ py-tong 
+* py-tong 
 * Warchall : tryouts
 * Live LFI 
 * Live Right-FI
