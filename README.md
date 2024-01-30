@@ -1,6 +1,17 @@
 # WeChall
 > logging into ssh in the port 19198 to access the warchall box after creating an account and setting a password to your ssh on wechall.net.
 
+Challenge i solved on the warchall box :
+
+```
+* the beginning
+* choose your path 1
+* choose your path 2
++ pytong 
+* tryouts
+* Live LFI 
+* Live RFI
+```
 
 
 # [ level 0 ] 
