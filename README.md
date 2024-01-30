@@ -59,7 +59,7 @@
 
 
 # [ level 12 ] 
-## Dans ce Challenge , le programme pyton doit retourner true pour obtenir le mot de passe .
+## Dans ce Challenge , Après l'analyse du code python du challenge,j'ai pu constater que le programme 'pyton' doit retourner true pour obtenir le mot de passe .
 ### le programme retourne true dans les cas suivants : 
 - Quand un fichier ne peut plus être ouvert après sa première ouverture ou quand le contenu du fichier change constamment .
 ### Ma solution : 
