@@ -83,7 +83,7 @@ Challenge i solved on the warchall box :
 - `./script` : executer le script .
 - Ouvrir une nouvelle fenetre putty sans fermer la session precedente pour executer le code python .
 - Executer `script` script sur une fenetre et executer `pytong` sur une autre comme ceci : 
-- `cd /home/level/12_pytong` et `./level12 /home/user/randy/changedfile` : executer le level12 dans le fichier qui change de contenu et le mot de passe s'affiche .
+- `cd /home/level/12_pytong` et `./pytong /home/user/randy/changedfile` : executer pytong dans le fichier qui change de contenu et le mot de passe s'affiche .
 
   # [ level 13 ]
 ## Dans ce challenge , apres avoir analyser la version compiler de tryout.c et quelque recherche sur internet, j'ai decouvert les descripteur de fichier (Il s'agit d'un identifiant digital utilisé pour désigner un fichier ouvert.) dans le repertoire /proc/self/fd/ . Dans notre cas, le descripteur de fichier 3 est attribué à solution.txt, qui contient notre solution. Toutefois, le descripteur de fichier de solution.txt reste ouvert jusqu'à la fin du programme, même après l'utilisation de /dev/urandom, ce qui paraît inhabituel. C'est cette anomalie que nous allons utiliser à notre avantage.
